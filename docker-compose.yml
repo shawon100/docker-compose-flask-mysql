@@ -5,7 +5,7 @@ services:
     links:
       - db
     ports:
-      - "5000:5000"
+      - "5000-5002:5000"
     deploy:
       mode: replicated
       replicas: 2
